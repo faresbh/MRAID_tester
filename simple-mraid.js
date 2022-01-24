@@ -47,7 +47,7 @@
          mraid.expand();
       });
 
-      setTimeout(resize, 1000);
+      setTimeout(resize, 0);
    }
 
    function resize() {
@@ -65,5 +65,5 @@
       log(`getResizeProperties: ${JSON.stringify(mraid.getResizeProperties())}`);
    }
 
-   setTimeout(init, 50);
+   setTimeout(init, 0);
 })();
