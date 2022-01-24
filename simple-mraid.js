@@ -1,9 +1,13 @@
-window.initMRAID = function () {
+(function () {
 
    function init() {
       document.documentElement.cssText = "margin:0; padding:0;";
       document.body.style.cssText = "margin:0; padding:0; background-color: #aab; color: #000; font-size: 8px; font-family: sans-serif;";
       //let html = document.firstChild.innerHTML;
+
+      let $mraid = document.createElement('script');
+      $mraid.src = "mraid.js";
+      document.head.appendChild($mraid);
 
       setTimeout(start, 50);
    }
@@ -62,4 +66,4 @@ window.initMRAID = function () {
    }
 
    setTimeout(init, 50);
-};
+})();
