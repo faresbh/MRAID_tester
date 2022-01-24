@@ -6,7 +6,7 @@ window.initMRAID = function () {
       //let html = document.firstChild.innerHTML;
 
       let $mraid = document.createElement('script');
-      $mraid.src = "mraid.js";
+      $mraid.src = "hybidmraidscaling.js";
       document.head.appendChild($mraid);
 
       setTimeout(start, 50);
