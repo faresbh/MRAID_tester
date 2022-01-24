@@ -1,4 +1,4 @@
-(function () {
+initMRAID = function () {
 
    function init() {
       document.documentElement.cssText = "margin:0; padding:0;";
@@ -66,4 +66,4 @@
    }
 
    setTimeout(init, 50);
-})();
+};
