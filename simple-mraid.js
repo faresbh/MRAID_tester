@@ -9,7 +9,7 @@
       $mraid.src = "mraid.js";
       document.head.appendChild($mraid);
 
-      setTimeout(start, 0);
+      setTimeout(start, 50);
    }
 
    let slog = '', $log;
@@ -47,7 +47,7 @@
          mraid.expand();
       });
 
-      setTimeout(resize, 0);
+      setTimeout(resize, 1000);
    }
 
    function resize() {
@@ -65,5 +65,5 @@
       log(`getResizeProperties: ${JSON.stringify(mraid.getResizeProperties())}`);
    }
 
-   setTimeout(init, 0);
+   setTimeout(init, 50);
 })();
