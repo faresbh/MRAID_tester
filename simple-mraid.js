@@ -1,4 +1,4 @@
-initMRAID = function () {
+window.initMRAID = function () {
 
    function init() {
       document.documentElement.cssText = "margin:0; padding:0;";
